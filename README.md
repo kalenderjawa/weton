@@ -4,7 +4,7 @@ Weton adalah sistem hari lahir dari budaya penanggalan (kalender) Jawa.
 
 Weton memakai sistem 5 hari (pancawara) atau pasaran dan juga sistem 7 hari atau saptawara (sama dengan hari pada Kalender Masehi).
 
-## Tabel Weton
+## Tabel Angka
 
 |       🔥       | Legi (5) | Pahing (9) | Pon (7) | Wage (4) | Kliwon (8) |
 | :------------: | :------: | :--------: | :-----: | :------: | :--------: |
@@ -17,4 +17,4 @@ Weton memakai sistem 5 hari (pancawara) atau pasaran dan juga sistem 7 hari atau
 | **Sebtu (9)**  |    14    |     18     |   16    |    13    |     17     |
 
 
-> Tabel diatas adalah tabel Weton beserta bobot-bobot angka kombinasi.
+> Tabel diatas adalah tabel Weton beserta *bobot-bobot* angka kombinasi.
