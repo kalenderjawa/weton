@@ -1,6 +1,8 @@
 # Weton
 
-Weton adalah sistem hari lahir dari budaya penanggalan (kalender) Jawa. Weton memakai sistem 5 hari (pancawara) atau pasaran dan juga sistem 7 hari atau saptawara (sama dengan hari pada Kalender Masehi).
+Weton adalah sistem hari lahir dari budaya penanggalan (kalender) Jawa. 
+
+Weton memakai sistem 5 hari (pancawara) atau pasaran dan juga sistem 7 hari atau saptawara (sama dengan hari pada Kalender Masehi).
 
 ## Tabel Weton
 
