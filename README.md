@@ -4,8 +4,8 @@ Weton adalah sistem hari lahir dari budaya penanggalan (kalender) Jawa. Weton me
 
 ## Tabel Bobot Weton
 
-|            | Legi (5) | Pahing (9) | Pon (7) | Wage (4) | Kliwon (8) |
-| :--------: | :------: | :--------: | :-----: | :------: | :--------: |
+|       🔥       | Legi (5) | Pahing (9) | Pon (7) | Wage (4) | Kliwon (8) |
+| :------------: | :------: | :--------: | :-----: | :------: | :--------: |
 |  **Akad (5)**  |    10    |     14     |   12    |    9     |     13     |
 | **Senen (4)**  |    9     |     13     |   11    |    8     |     12     |
 | **Selasa (3)** |    8     |     12     |   10    |    7     |     11     |
