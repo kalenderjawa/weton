@@ -13,7 +13,10 @@ bobot_weton_sebtu_kliwon = 9 + 8
 bobot_weton_sebtu_kliwon = 17
 ```
 
-## Tabel Angka
+## Tabel Bobot Weton
+
+Tabel lengkap dari bobot weton ada pada tabel berikut
+
 
 |       🔥       | Legi (5) | Pahing (9) | Pon (7) | Wage (4) | Kliwon (8) |
 | :------------: | :------: | :--------: | :-----: | :------: | :--------: |
