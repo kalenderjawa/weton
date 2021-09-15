@@ -1,17 +1,32 @@
 {
   "name": "@kalenderjawa/weton",
   "version": "1.0.0",
-  "description": "Weton adalah sistem hari lahir dari budaya penanggalan (kalender) Jawa.",
-  "main": "index.js",
+  "description": "Weton adalah sistem hari kelahiran yang dipakai di budaya & penanggalan (kalender) Jawa.",
   "type": "module",
+  "main": "lib/weton.min.cjs",
+  "module": "lib/weton.min.js",
+  "browser": "lib/weton.browser.min.js",
+  "exports": {
+    ".": {
+      "require": "./lib/weton.min.cjs",
+      "import": "./lib/weton.min.js",
+      "browser": "./lib/weton.browser.min.js"
+    },
+    "./package.json": "./package.json",
+    "./": "./"
+  },
+  "files": ["lib"],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kalenderjawa/weton.git"
   },
-  "keywords": [],
+  "keywords": ["weton"],
   "author": "Equan Pr. <equan.p@gmail.com>",
   "license": "MIT",
   "bugs": {
