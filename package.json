@@ -20,6 +20,7 @@
     "access": "public"
   },
   "scripts": {
+    "build": "npx rollup --config",
     "test": "echo \"Error: no test specified\""
   },
   "repository": {
