@@ -1,6 +1,6 @@
 {
   "name": "@kalenderjawa/weton",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha",
   "description": "Weton adalah sistem hari kelahiran yang dipakai di budaya & penanggalan (kalender) Jawa.",
   "type": "module",
   "main": "lib/weton.min.cjs",
