@@ -25,7 +25,12 @@ function generatorTabelBobotWeton() {
 
   for (let x of DINTEN_ARR) {
     for (let y of PASARAN_ARR) {
-      dp.push({ d: y.urutan, p: x.urutan, b: hitungBobotWeton(y, x) });
+      dp.push({
+        dino: x.dino,
+        pasaran: y.pasaran,
+        idx: [x.urutan, y.urutan],
+        bobot: hitungBobotWeton(y, x),
+      });
     }
   }
   return dp;
