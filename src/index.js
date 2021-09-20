@@ -36,4 +36,21 @@ function generatorTabelBobotWeton() {
   return dp;
 }
 
-export { generatorTabelBobotWeton as tabelBobotWeton, hitungBobotWeton };
+/**
+ * Mengambil data langsug dari tabel weton
+ * @param {Number} ud
+ * @param {Number} up
+ * @returns
+ */
+function cariBobotWeton(ud = 1, up = 1) {
+  let data = generatorTabelBobotWeton().filter(
+    (weton) => weton.idx[0] === ud && weton.idx[1] === up
+  );
+  return data[0]?.bobot;
+}
+
+export {
+  generatorTabelBobotWeton as tabelBobotWeton,
+  hitungBobotWeton,
+  cariBobotWeton,
+};
