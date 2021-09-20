@@ -15,7 +15,9 @@
     "./package.json": "./package.json",
     "./": "./"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "publishConfig": {
     "access": "public"
   },
@@ -27,7 +29,9 @@
     "type": "git",
     "url": "git+https://github.com/kalenderjawa/weton.git"
   },
-  "keywords": ["weton"],
+  "keywords": [
+    "weton"
+  ],
   "author": "Equan Pr. <equan.p@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -40,6 +44,6 @@
   },
   "dependencies": {
     "@kalenderjawa/pancawara": "^1.0.0",
-    "@kalenderjawa/saptawara": "^1.0.0"
+    "@kalenderjawa/saptawara": "^1.3.0"
   }
 }
