@@ -2,9 +2,11 @@
 
 Weton adalah sistem hari lahir dari budaya penanggalan (kalender) Jawa.
 
-Weton memakai sistem 5 hari (pancawara) atau pasaran dan juga sistem 7 hari atau saptawara (sama dengan hari pada Kalender Masehi).
-Weton itu sendiri mempunyai bobot tersendiri yang dihitung dari jumlah bobot angka dari kombinasi pancawara dan saptawara.
+Weton merupakan gabungan sistem 5 hari (pancawara) atau pasaran dan juga sistem 7 hari atau saptawara (sama dengan hari pada Kalender Masehi) dan penggunaan Weton ini sangatlah
+banyak dalam kegiatan adat istiadat di lingkungan kebudayaan Jawa serta perannya sangatlah fondasional. 
 
+## Bobot Weton
+Weton itu sendiri mempunyai bobot tersendiri yang dihitung dari jumlah bobot angka dari kombinasi pancawara dan saptawara.
 Misalnya untuk weton `Sebtu Kliwon` maka bobot angka weton tersebut adalah
 
 ```
@@ -13,7 +15,7 @@ bobot_weton_sebtu_kliwon = 9 + 8
 bobot_weton_sebtu_kliwon = 17
 ```
 
-## Tabel Bobot Weton
+### Tabel Bobot Weton
 
 Tabel lengkap dari bobot weton ada pada tabel berikut
 
