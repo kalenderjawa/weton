@@ -23,7 +23,7 @@
   },
   "scripts": {
     "build": "npx rollup --config",
-    "test": "echo \"Error: no test specified\""
+    "test": "npx jest --no-cache"
   },
   "repository": {
     "type": "git",
