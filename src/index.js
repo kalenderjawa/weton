@@ -5,8 +5,8 @@
  * Tabel bobot weton
  */
 
-import { PASARAN_ARR, PASARAN } from "@kalenderjawa/pancawara";
-import { DINTEN_ARR, DINTEN } from "@kalenderjawa/saptawara";
+import { PASARAN_ARR } from "@kalenderjawa/pancawara";
+import { DINTEN_ARR } from "@kalenderjawa/saptawara";
 
 /**
  * @param {*} pasaran
