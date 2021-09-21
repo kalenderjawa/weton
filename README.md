@@ -39,7 +39,7 @@ Tabel lengkap dari bobot weton ada pada tabel berikut
 
 Mencari bobot dari weton tertentu.
 
-Misalnya untuk mencari weton `Kemis Kliwon`, maka kita cukup menuli kode seperti berikut
+Misalnya untuk mencari weton `Kemis Kliwon`, maka kita cukup menulis kode seperti berikut
 
 ```javascript
 let miswon = hitungBobotWeton(DINTEN.get(_AKAD), PASARAN.get(_LEGI));
@@ -56,3 +56,5 @@ Misalnya, untuk mencari bobot Weton pada hari 1 (Senin) dan pasaran 1 (Legi) mak
 ```javascript
 let _Senen_Legi = cariBobotWeton(1, 1); // 9
 ```
+
+> Urutan hari dan pasaran didasarkan pada dokumentasi dari [Pancawra](https://github.com/kalenderjawa/pancawara) dan [Saptawara](https://github.com/kalenderjawa/saptawara).
