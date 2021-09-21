@@ -13,7 +13,7 @@ import { DINTEN_ARR } from "@kalenderjawa/saptawara";
  * @param {*} dino
  * @returns
  */
-function hitungBobotWeton(pasaran, dino) {
+function hitungBobotWeton(dino, pasaran) {
   return pasaran.neptu + dino.bobot;
 }
 
@@ -29,7 +29,7 @@ function generatorTabelBobotWeton() {
         dino: x.dino,
         pasaran: y.pasaran,
         idx: [x.urutan, y.urutan],
-        bobot: hitungBobotWeton(y, x),
+        bobot: hitungBobotWeton(x, y),
       });
     }
   }
