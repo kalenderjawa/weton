@@ -11,9 +11,9 @@ Weton itu sendiri mempunyai bobot tersendiri yang dihitung dari jumlah bobot ang
 Misalnya untuk weton `Sebtu Kliwon` maka bobot angka weton tersebut adalah
 
 ```javascript
-bobot_weton_sebtu_kliwon = bobot_sebtu + bobot_kliwon
-bobot_weton_sebtu_kliwon = 9 + 8
-bobot_weton_sebtu_kliwon = 17
+bobot_weton_sebtu_kliwon = bobot_sebtu + bobot_kliwon;
+bobot_weton_sebtu_kliwon = 9 + 8;
+bobot_weton_sebtu_kliwon = 17;
 ```
 
 ### Tabel Bobot Weton
@@ -31,4 +31,28 @@ Tabel lengkap dari bobot weton ada pada tabel berikut
 |  **Akad (5)**  |    10    |     14     |   12    |    9     |     13     |
 
 > Tabel diatas adalah tabel Weton beserta _bobot-bobot_ angka kombinasi,
-> misalnya weton **Kemis KLiwon** itu mempunyai bobot angka sebesar **16**.
+> misalnya weton **Kemis Kliwon** itu mempunyai bobot angka sebesar **16**.
+
+## API
+
+**`hitungBobotWeton(dino, pasaran)`**
+
+Mencari bobot dari weton tertentu.
+
+Misalnya untuk mencari weton `Kemis Kliwon`, maka kita cukup menuli kode seperti berikut
+
+```javascript
+let miswon = hitungBobotWeton(DINTEN.get(_AKAD), PASARAN.get(_LEGI));
+```
+
+API diatas didesain untuk digunakan dengan library [@kalenderjawa/pancawara](https://github.com/kalenderjawa/pancawara) dan [@kalenderjawa/saptawara](https://github.com/kalenderjawa/saptawara).
+
+**`cariBobotWeton(urutanHari, urutanPasaran)`**
+
+Untuk mencari bobot Weton dengan memakai urutan hari dan urutan pasaran.
+
+Misalnya, untuk mencari bobot Weton pada hari 1 (Senin) dan pasaran 1 (Legi) maka
+
+```javascript
+let _Senen_Legi = cariBobotWeton(1, 1); // 9
+```
