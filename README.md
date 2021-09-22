@@ -58,3 +58,38 @@ let _Senen_Legi = cariBobotWeton(1, 1); // 9
 ```
 
 > Urutan hari dan pasaran didasarkan pada dokumentasi dari [Pancawra](https://github.com/kalenderjawa/pancawara) dan [Saptawara](https://github.com/kalenderjawa/saptawara).
+
+## Instalasi
+
+### Browser
+
+Untuk browser yang TIDAK menggunakan ES Module dapat dipakai skrip seperti berikut,
+
+```html
+<head>
+
+<script src="https://unpkg.com/@kalenderjawa/saptawara/lib/saptawara.browser.min.js">
+<script src="https://unpkg.com/@kalenderjawa/pancawara/lib/pancawara.browser.min.js">
+<script src="https://unpkg.com/@kalenderjawa/weton/lib/weton.browser.min.js">
+</head>
+
+<body>
+
+<script>
+  // Weton Selasa Pon
+  let selpon = Weton.cariBobotWeton(2,3)
+</script>
+</body>
+```
+
+### Node.js
+
+`npm install --save @kalenderjawa/weton`
+
+Contoh penggunaannya seperti berikut,
+
+```javascript
+import { cariBobotWeton } from @kalenderjawa/weton
+
+let bobotWeton = cariBobotWeton(6,2) // hari ke 3 pasaran ke 2 atau Sebtu Pon 
+```
