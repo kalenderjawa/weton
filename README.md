@@ -1,4 +1,4 @@
-# Weton
+# @kalenderjawa/weton
 
 Weton adalah sistem hari lahir dari budaya penanggalan (kalender) Jawa.
 
